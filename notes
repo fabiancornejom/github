@@ -1,1 +1,84 @@
 //resume github
+git
+(crear una carpeta)
+git init
+
+git reset --soft <codigo log>
+//se borra uno
+git log --pretty=oneline
+git status
+notepad m6
+git status(si hay cambios no guardados)
+untracked files
+git add .(agregrar los cambios)
+git commit -m "C4: Re-writing history"
+4 files changed
+git log --pretty=oneline (en una linea sin saltos)
+git push origin(se agrega en remoto)
+bash: notapad: command not found(notepad) mal escrito
+git push origin The current branch master has no upstream branch.(falta la rama)
+This is usually caused by another repository pushing(hay otro archivo editandose online)
+
+git init(se inicio localmente solamente)
+git add remote origin (aca se agrega remotamente)
+Updates were rejected because the remote contains work that you do(ya el cambio esta hecho)
+el primer log es el de arriba (top)
+el ultimo log es el del mas abajo
+ls(los archivos que tiene la carpeta)
+git revert 76f9dfdd4d17d5407f46d627c7f28f151c19e56c 
+
+$ git remote add UndoRepo https://github.com/fabiancornejom/UndoRepo.git
+error: remote UndoRepo already exists. (ya se agrego remotamente)
+
+ 
+mkdir Org_Details
+git init (repositorio vacio)
+notepad name.txt
+notepad employees.txt
+clear
+git status
+git add . 
+clear
+$ git commit -m "First Commit"
+git log --pretty=oneline
+git branch Blr_Branch (se copia la rama)
+git branch -v
+clear
+git checkout Blr_Branch (cambiar a esta rama)
+ls
+notepad address.txt
+git add . 
+git commit -m "Blr Branch Commit"
+git checkout master
+new repository Org_Details
+description : Git Branch Demo
+
+git remote add origin https://github.com/fabiancornejom/Org_Details.git
+git checkout master
+clear
+git push -u origin master
+enter for key
+
+git push -u origin Blr_Branch
+clear
+git ckeckout Blr_Branch
+git checkout master
+git merge Blr_Branch (se agregan los archovos a master se actualiza)
+git log --pretty=oneline
+git push origin master
+//deleted branch
+git branch -D Blr_Branch (eliminada localmente)
+clear
+git branch -v
+git push origin --delete Blr_Branch (borrar en github)
+git branch commands
+
+
+
+
+
+
+
+
+
+
